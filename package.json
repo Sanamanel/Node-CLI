@@ -2,9 +2,9 @@
   "name": "@sanamanel/holidates",
   "version": "1.0.0",
   "description": "A tool to get the holidays of a year for a country",
-  "main": "bin/index.js",
+  "main": "index.js",
   "bin": {
-    "box": "./bin/index.js"
+    "holidates": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/Sanamanel/Node-CLI.git"
   },
-  "author": "",
+  "keywords": [
+    "holidays",
+    "dates",
+    "current year",
+    "countries"
+  ],
+  "author": "Rachida",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sanamanel/Node-CLI/issues"
