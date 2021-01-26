@@ -4,7 +4,7 @@
   "description": "A tool to get the holidays of a year for a country",
   "main": "index.js",
   "bin": {
-    "holidates": "index.js"
+    "holidates": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
